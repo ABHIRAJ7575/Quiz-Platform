@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Canvas for Hard Mode -->
+    <canvas id="particleCanvas"></canvas>
+    
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="main-title">Quiz Platform</h1>
+            <div class="theme-toggle">
+                <button id="themeToggle" class="theme-btn">🌙 Dark Mode</button>
+            </div>
+        </header>
+
+        <!-- Difficulty Selection Screen -->
+        <div id="difficultyScreen" class="screen active">
+            <h2 class="screen-title">Select Difficulty</h2>
+            <div class="difficulty-cards">
+                <div class="difficulty-card" data-difficulty="easy">
+                    <div class="card-icon">🟢</div>
+                    <h3>Easy</h3>
+                    <p>Perfect for beginners</p>
+                    <button class="select-btn" data-difficulty="easy">Start Easy</button>
+                </div>
+                <div class="difficulty-card" data-difficulty="medium">
+                    <div class="card-icon">🟡</div>
+                    <h3>Medium</h3>
+                    <p>Test your knowledge</p>
+                    <button class="select-btn" data-difficulty="medium">Start Medium</button>
+                </div>
+                <div class="difficulty-card" data-difficulty="hard">
+                    <div class="card-icon">🔴</div>
+                    <h3>Hard</h3>
+                    <p>For the brave ones</p>
+                    <button class="select-btn" data-difficulty="hard">Start Hard</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <div class="quiz-header">
+                <div class="quiz-info">
+                    <span class="difficulty-badge" id="difficultyBadge"></span>
+                    <span class="timer" id="timer">⏱️ 00:00</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progressBar"></div>
+                </div>
+                <div class="question-counter" id="questionCounter">Question 1 of 10</div>
+            </div>
+
+            <div class="quiz-content">
+                <h2 class="question-text" id="questionText"></h2>
+                <div class="options-container" id="optionsContainer"></div>
+            </div>
+
+            <div class="quiz-footer">
+                <button id="prevBtn" class="nav-btn" disabled>← Previous</button>
+                <button id="nextBtn" class="nav-btn">Next →</button>
+                <button id="submitBtn" class="submit-btn" style="display: none;">Submit Quiz</button>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <h2 class="screen-title">Quiz Complete!</h2>
+            <div class="results-container">
+                <div class="score-display">
+                    <div class="score-circle">
+                        <span class="score-value" id="scoreValue">0</span>
+                        <span class="score-total">/ <span id="totalQuestions">10</span></span>
+                    </div>
+                    <div class="performance-badge" id="performanceBadge"></div>
+                </div>
+
+                <div class="analytics">
+                    <h3 class="analytics-title">Performance Analytics</h3>
+                    <div class="analytics-grid">
+                        <div class="analytics-item">
+                            <span class="analytics-label">Correct Answers</span>
+                            <span class="analytics-value" id="correctAnswers">0</span>
+                        </div>
+                        <div class="analytics-item">
+                            <span class="analytics-label">Incorrect Answers</span>
+                            <span class="analytics-value" id="incorrectAnswers">0</span>
+                        </div>
+                        <div class="analytics-item">
+                            <span class="analytics-label">Accuracy</span>
+                            <span class="analytics-value" id="accuracy">0%</span>
+                        </div>
+                        <div class="analytics-item">
+                            <span class="analytics-label">Time Taken</span>
+                            <span class="analytics-value" id="timeTaken">00:00</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="restartBtn" class="restart-btn">Take Another Quiz</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">Made by Abhiraj Dixit</p>
+        </footer>
+    </div>
+
+    <!-- Mobile Swipe Indicator -->
+    <div class="swipe-indicator"></div>
+    
+    <!-- Keyboard Hint -->
+    <div class="keyboard-hint"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
