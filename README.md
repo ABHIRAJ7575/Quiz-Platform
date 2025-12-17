@@ -226,14 +226,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
-## 👨‍💻 Author
-
-**Abhiraj Dixit**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Twitter: [@yourhandle](https://twitter.com/yourhandle)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
@@ -261,28 +253,11 @@ Contributions, issues, and feature requests are welcome!
 - Built with passion for clean code and great UX
 - Thanks to the open-source community
 
-## 📸 Screenshots
-
-### Light Mode
-![Light Mode](https://via.placeholder.com/800x400/4a90e2/ffffff?text=Light+Mode+Screenshot)
-
-### Dark Mode - Easy (Matrix)
-![Matrix Mode](https://via.placeholder.com/800x400/000000/00ff41?text=Matrix+Terminal+Mode)
-
-### Dark Mode - Medium (Cyberpunk)
-![Cyberpunk Mode](https://via.placeholder.com/800x400/0a0e27/ff2a6d?text=Cyberpunk+Hacker+Mode)
-
-### Dark Mode - Hard (Elite)
-![Elite Mode](https://via.placeholder.com/800x400/000000/00ffff?text=Elite+Terminal+Mode)
-
----
 
 <div align="center">
 
 ### ⭐ Star this repo if you like it!
 
 Made with ❤️ and lots of ☕ by Abhiraj Dixit
-
-[Report Bug](https://github.com/yourusername/elite-coder-quiz/issues) · [Request Feature](https://github.com/yourusername/elite-coder-quiz/issues)
 
 </div>
