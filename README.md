@@ -7,6 +7,10 @@ A stunning, fully-featured quiz platform with **3 unique coder-themed dark modes
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
+##  Demo
+
+**Live Preview:** [View Demo](#) _(https://abhiraj7575.github.io/Quiz-Platform/)_
+
 ## ✨ Features
 
 ### 🎨 4 Stunning Themes
