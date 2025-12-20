@@ -11,6 +11,8 @@ A stunning, fully-featured quiz platform with **3 unique coder-themed dark modes
 
 **Live Preview:** [View Demo](#) _(https://abhiraj7575.github.io/Quiz-Platform/)_
 
+# This Project only works in Dark Mode #
+
 ## ✨ Features
 
 ### 🎨 4 Stunning Themes
