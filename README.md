@@ -1,269 +1,213 @@
-# 🎮 Elite Coder Quiz Platform
+# Elite Coder Quiz Platform
 
-A stunning, fully-featured quiz platform with **3 unique coder-themed dark modes**, mobile swipe gestures, keyboard navigation, and smooth animations. Built with pure vanilla JavaScript, HTML, and CSS - no frameworks required!
+A quiz platform with **3 dark modes themed after hacker movies** because apparently, one dark mode wasn't edgy enough.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+Built with vanilla JavaScript because I refuse to install 500 npm packages just to display some questions. 🎮
 
-##  Demo
+**Live Demo:** https://abhiraj7575.github.io/Quiz-Platform/
 
-**Live Preview:** [View Demo](#) _(https://abhiraj7575.github.io/Quiz-Platform/)_
+*Warning: Quiz only works in dark mode. Yes, it's intentional. No, I won't explain why.* 😎
 
-## The Quiz will only start in Dark Mode ##
+---
 
-## ✨ Features
+## What Is This?
 
-### 🎨 4 Stunning Themes
+A coding quiz platform where you can test your knowledge while pretending you're hacking into the mainframe. Features include:
 
-#### 🌟 Light Mode - Modern & Elegant
-- Animated gradient background with pulsing glow
-- Soft shadows and professional design
-- Gradient buttons with inner glow effects
-- Perfect for daytime coding sessions
+- **10 questions per difficulty** - Easy, Medium, Hard (or as I call them: "Doable", "Googling Required", and "Pure Suffering")
+- **4 different themes** - One light mode nobody uses, and three dark modes everyone fights over
+- **Keyboard shortcuts** - Because clicking is for peasants
+- **Mobile swipe gestures** - Swipe through questions like you swipe through job rejections
+- **Performance analytics** - Finally, metrics that don't judge you (much)
 
-#### 🟢 Dark Mode - Easy (Matrix Terminal)
-- Pure Matrix green (#00ff41) on black
-- Scanline animation effects
-- Terminal grid background
-- `> ` prefix on hover
-- **Feel like you're in The Matrix!**
+---
 
-#### 🔴 Dark Mode - Medium (Cyberpunk Hacker)
-- Hot pink + cyan + yellow color scheme
-- Animated grid background
-- `//` comment prefix on hover
-- Rainbow gradient text animation
-- **Pure hacker aesthetic!**
+## The Themes (AKA The Real Features)
 
-#### 💎 Dark Mode - Hard (Elite Terminal)
-- Cyan + Magenta + Yellow + Green
-- Scrolling grid background
-- `$ ` terminal prefix on hover
-- Rainbow progress bar with multi-color particles
-- **Elite hacker vibes!**
+### Light Mode - "The One Nobody Uses"
+Gradient backgrounds, soft shadows, professional design. Basically exists so I can say "yes, it has light mode" in interviews. 
 
-### 🎯 Core Features
+*Last used: Never*
 
-- ✅ **10 Questions per Difficulty** - Easy, Medium, and Hard levels
-- ⏱️ **Live Timer** - Track your quiz completion time
-- 📊 **Performance Analytics** - Detailed stats with accuracy percentage
-- 🏆 **Performance Badges** - Beginner, Intermediate, or Advanced
-- 📈 **Progress Bar** - Visual feedback with animated effects
-- 🎨 **Smooth Animations** - 60fps performance across all themes
-- 💾 **Pure Vanilla JS** - No dependencies, no frameworks
-- 📱 **Fully Responsive** - Works perfectly on mobile and desktop
+### Dark Mode - Easy (Matrix Terminal) 🟢
+Matrix green on black. Scanline effects. Terminal vibes. You'll feel like Neo even though you're just answering "What is a variable?"
 
-### ⌨️ Keyboard Navigation (Desktop)
+*Best for: Feeling cool while getting easy questions wrong*
 
-- `←` `→` - Navigate between questions
-- `1` `2` `3` `4` - Select answer options
-- `Enter` - Submit quiz or go to next question
-- Visual keyboard hints appear automatically
+### Dark Mode - Medium (Cyberpunk Hacker) 🔴
+Hot pink + cyan + yellow because subtlety is overrated. Animated grid background. Rainbow gradient text. Your eyes will hurt, but you'll look like a pro.
 
-### 📱 Mobile Gestures
+*Best for: Pretending you know what you're doing*
 
-- **Swipe Left** - Next question
-- **Swipe Right** - Previous question
-- **Tap** - Select options
-- Touch feedback animations
-- Swipe indicators for guidance
+### Dark Mode - Hard (Elite Terminal) 💎
+Cyan, magenta, yellow, green - all the colors. Scrolling grid. Rainbow progress bar with particles. Maximum hacker aesthetic achieved.
 
-### 🎭 Special Effects
+*Best for: Compensating for actually struggling with hard questions*
 
-- **Glowing Buttons** - Radial gradient glow inside buttons on hover
-- **Animated Backgrounds** - Each theme has unique moving/pulsing backgrounds
-- **Particle System** - Floating particles in Hard mode
-- **Scanline Effects** - Matrix-style animations in Easy mode
-- **Grid Animations** - Moving grids in Medium and Hard modes
-- **Rainbow Text** - Gradient text animations in all dark modes
+---
 
-## 🚀 Quick Start
+## Features That Actually Matter
 
-### Installation
+✓ **Timer** - Tracks how long you procrastinate before guessing  
+✓ **Progress bar** - Visual reminder of your doom  
+✓ **Keyboard navigation** - Arrow keys to move, 1-4 to answer, Enter to submit  
+✓ **Mobile gestures** - Swipe left/right like you're on a dating app  
+✓ **Performance badges** - Get called "Beginner" by your own quiz app  
+✓ **Zero dependencies** - Just HTML, CSS, JS. No `node_modules` the size of Mars  
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/elite-coder-quiz.git
-   cd elite-coder-quiz
-   ```
+---
 
-2. **Open in browser**
-   ```bash
-   # Simply open index.html in your browser
-   # Or use a local server:
-   python -m http.server 8000
-   # Then visit: http://localhost:8000
-   ```
+## Quick Start
 
-That's it! No build process, no dependencies to install.
+```bash
+# Clone it
+git clone https://github.com/yourusername/elite-coder-quiz.git
 
-## 📁 Project Structure
+# Open it
+open index.html
 
-```
-elite-coder-quiz/
-│
-├── index.html          # Main HTML structure
-├── style.css           # All styling and animations
-├── script.js           # Quiz logic and interactions
-└── README.md           # This file
+# That's literally it
 ```
 
-## 🎮 How to Use
+No `npm install`. No `yarn`. No webpack. No trauma. Just double-click the HTML file like it's 2005. 🎉
 
-1. **Select Theme** - Toggle between Light and Dark mode
-2. **Choose Difficulty** - Easy, Medium, or Hard
-3. **Answer Questions** - Use mouse, keyboard, or swipe gestures
-4. **Navigate** - Move between questions freely
-5. **Submit** - Complete the quiz and view your results
-6. **Analyze** - Check your performance analytics
-7. **Retry** - Take another quiz with different difficulty
+---
 
-## 🎨 Customization
+## How To Use
 
-### Adding Your Own Questions
+1. Pick a theme (we both know you're choosing dark mode)
+2. Select difficulty (start with Easy, lie about choosing Hard)
+3. Answer questions (or frantically Google them)
+4. Navigate with arrow keys or swipe (feel productive)
+5. Submit and pretend the results don't hurt your feelings
+6. Retry with a different difficulty (lower, obviously)
 
-Edit the `quizData` object in `script.js`:
+---
+
+## Keyboard Shortcuts (For The Cool Kids)
+
+- `←` `→` - Move between questions
+- `1` `2` `3` `4` - Select answers (faster than clicking)
+- `Enter` - Submit your shame
+- `ESC` - Doesn't work, you're stuck here now
+
+---
+
+## Customization
+
+### Add Your Own Questions
+
+Edit `script.js` and find the `quizData` object:
 
 ```javascript
 const quizData = {
     easy: [
         {
-            question: "Your question here?",
-            options: ["Option 1", "Option 2", "Option 3", "Option 4"],
-            correct: 0  // Index of correct answer (0-3)
-        },
-        // Add more questions...
-    ],
-    medium: [ /* ... */ ],
-    hard: [ /* ... */ ]
+            question: "Your question?",
+            options: ["A", "B", "C", "D"],
+            correct: 0  // Index (0-3)
+        }
+    ]
 };
 ```
 
-### Customizing Colors
+Make them as easy or soul-crushing as you want. I won't judge. The analytics will though.
 
-Modify CSS variables in `style.css`:
+### Change Colors
 
-```css
-/* For Easy Mode */
-body.dark-mode.easy-mode {
-    --matrix-green: #00ff41;  /* Change this */
-}
+All theme colors are CSS variables in `style.css`. Go wild. Make it uglier. I dare you.
 
-/* For Medium Mode */
-body.dark-mode.medium-mode {
-    --cyber-pink: #ff2a6d;    /* Change this */
-    --cyber-cyan: #05d9e8;    /* Change this */
-}
+---
 
-/* For Hard Mode */
-body.dark-mode.hard-mode {
-    --cyber-cyan: #00ffff;    /* Change this */
-    --cyber-magenta: #ff00ff; /* Change this */
-}
-```
+## Browser Support
 
-## 🌟 Browser Support
+Works on:
+- Chrome ✓
+- Firefox ✓  
+- Safari ✓
+- Edge ✓
+- Your phone ✓
+- Internet Explorer ✗ (let it go)
 
-- ✅ Chrome (latest)
-- ✅ Firefox (latest)
-- ✅ Safari (latest)
-- ✅ Edge (latest)
-- ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+If it doesn't work on your browser, your browser is the problem, not my code. 😤
 
-## 📱 Mobile Optimization
+---
 
-- Responsive grid layouts
-- Touch-friendly button sizes
-- Swipe gesture support
-- Orientation change handling
-- Optimized animations for mobile performance
+## Performance
 
-## ♿ Accessibility
+- **60fps animations** - Smoother than my career trajectory
+- **Optimized particles** - Because I actually care about performance
+- **Hardware-accelerated CSS** - Let your GPU do the work
+- **No frameworks** - Fast load times, zero bloat
 
-- Keyboard navigation support
-- Focus indicators on interactive elements
-- High contrast color schemes
-- Semantic HTML structure
-- ARIA-friendly design
+The animations are smooth. The questions are hard. Perfectly balanced, as all things should be.
 
-## 🎯 Performance
+---
 
-- **60fps animations** - Smooth transitions and effects
-- **Optimized particles** - Efficient canvas rendering
-- **CSS animations** - Hardware-accelerated transforms
-- **No dependencies** - Fast load times
-- **Minimal JavaScript** - Clean, efficient code
+## Known Issues
 
-## 🛠️ Technologies Used
+- Light mode exists but nobody asked for it
+- Some animations might stutter on ancient devices (upgrade your phone)
+- Hard mode is actually hard (not a bug, a feature)
+- You can't skip questions (yes, I could add this. No, I won't.)
+- Success makes you overconfident, failure makes you question everything
 
-- **HTML5** - Semantic structure
-- **CSS3** - Advanced animations and effects
-- **Vanilla JavaScript** - No frameworks or libraries
-- **Canvas API** - Particle system rendering
-- **Touch Events API** - Mobile gesture support
-- **Keyboard Events API** - Desktop navigation
+---
 
-## 📝 License
+## Future Plans (Maybe)
 
-This project is licensed under the MIT License - see below for details:
+Things I might add if I ever stop watching Netflix:
 
-```
-MIT License
+- [ ] More question categories
+- [ ] User authentication (so you can save your shame)
+- [ ] Leaderboard (public shame)
+- [ ] Social sharing (spread the suffering)
+- [ ] Sound effects (annoying beeps for every wrong answer)
+- [ ] A "Give Up" button (for honesty)
 
-Copyright (c) 2024 Abhiraj Dixit
+Keyword: **MIGHT**
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## Contributing
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-## 🤝 Contributing
+Found a bug? Have a suggestion? Feel free to open an issue.
 
-Contributions, issues, and feature requests are welcome!
+Want to add features? Cool. Just don't add React, Vue, or any framework. This is a framework-free zone. We're keeping it pure. We're keeping it simple. We're keeping it vanilla.
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
-## 💡 Future Enhancements
+## License
 
-- [ ] Add more question categories
-- [ ] Implement user authentication
-- [ ] Save quiz history
-- [ ] Leaderboard system
-- [ ] Social sharing features
-- [ ] Custom quiz creation
-- [ ] Multiplayer mode
-- [ ] Sound effects and music
+MIT - Do whatever you want. Copy it. Sell it. Use it to impress recruiters. Just maybe credit me when it gets you hired.
 
-## 🙏 Acknowledgments
+---
 
-- Inspired by Matrix, cyberpunk aesthetics, and terminal interfaces
-- Built with passion for clean code and great UX
-- Thanks to the open-source community
+## Acknowledgments
 
+**Inspiration:** Every hacker movie ever made  
+**Built with:** Caffeine, stubbornness, and CSS animations  
+**Tested on:** People who think they're better at coding than they are  
+**Designed for:** Anyone who's tired of boring quiz apps  
 
-<div align="center">
+Special thanks to:
+- The Matrix for the aesthetic
+- Cyberpunk 2077 for the color scheme (the game might be buggy but the vibes are immaculate)
+- My impostor syndrome for keeping me humble
 
-### ⭐ Star this repo if you like it!
+---
 
-Made with ❤️ and lots of ☕ by Abhiraj Dixit
+## Final Note
 
-</div>
+This quiz won't make you a better coder. It won't get you a job. It won't solve your problems.
+
+But it looks cool. And sometimes, that's enough.
+
+Now go take the quiz and prove you're as good as you claim to be on LinkedIn. 💀
+
+---
+
+**Made with sarcasm and HTML** by Abhiraj Dixit  
+**Last Updated:** December 2025  
+**Bugs:** Probably  
+**Regrets:** None
